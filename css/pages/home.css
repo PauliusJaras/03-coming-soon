@@ -1,0 +1,95 @@
+.container > .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.logo {
+    height: 30px;
+}
+
+.main-title {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.main-description {
+    font-size: 22px;
+}
+
+.clock {
+    width: 80%;
+    background-color: pink;
+}
+
+.section-title {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.section-description{
+    font-size: 16px;
+}
+
+.section-description > a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.section-description > a:hover {
+    text-decoration: underline;
+}
+
+footer.container{
+    padding-top: 0;
+}
+
+.row.socials{
+    justify-content: center;
+    gap: 20px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-bottom: 2em;
+    border-bottom:  1px solid #fff;
+}
+
+.socials > a {
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 2.5em;
+    transition: all 0.5s;
+}
+
+.socials > a:hover {
+    background-color: #fff;
+    color: var(--secondary-color);
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.bottom > .trio {
+    display: flex;
+    gap: 20px;
+}
+
+.bottom > .logo {
+    margin-bottom: 40px;
+}
+
+.bottom a{
+    color: #fff;
+}
